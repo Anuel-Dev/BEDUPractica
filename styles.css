@@ -52,3 +52,13 @@ width: 15%;
     font-size: 14px;
     font-weight: 600;
 }
+
+h1 > *{
+    margin: 40px 20px 40px ;
+}
+
+.main {
+    margin-top: 140px;
+    text-align: center;
+    
+}
