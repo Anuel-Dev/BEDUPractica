@@ -5,7 +5,20 @@ body {
   h1 {
     color: #025157;
     text-align: center;
-    font-family: 'Alegreya Sans SC', sans-serif;;
+    font-family: 'Alegreya Sans SC', sans-serif;
+  }
+
+  .hache1{
+    color: #025157;
+    
+    font-family: 'Alfa Slab One', cursive;
+  }
+
+  .p1 {
+    color: #343434;
+    font-family: Verdana;
+    font-size: 20px;
+    margin: left;
   }
   
   p {
@@ -27,6 +40,7 @@ body {
     font-size: 0;
     font-family: sans-serif;
   }
+
   
   li {
     display: inline;
@@ -83,3 +97,39 @@ body {
     margin-top: 140px;
     text-align: center;
   }
+
+  .promo {
+display: flex;
+width: 70%;
+margin: 100px auto;
+align-items: flex-start;
+flex-direction: column;
+  }
+
+.promo1{
+  margin: 200px;
+  position: relative;
+  top: -455px;
+  left: 367px;
+  
+  
+}
+
+.promo img{
+  width: 80px;
+  flex-direction: column;
+  position: relative;
+  top: -197px;
+  left: 110px;
+}
+.video{
+  width: auto;
+  margin-left: -113px;
+}
+
+/*.cont{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px;
+}*/
