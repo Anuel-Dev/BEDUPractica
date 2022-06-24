@@ -51,11 +51,11 @@ li {
 }
 
 .logo {
-  width: 15%;
+  width: 30%;
 }
 
 .logo > img {
-  width: 15%;
+  width: 30%;
 }
 
 .navbar {
@@ -63,6 +63,7 @@ li {
   text-align: center;
   color: #025157;
   font-weight: 500;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .actions {
@@ -216,10 +217,10 @@ iframe {
 
 /** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 575px){
-  .navbar,
+  /*.navbar,
   .actions {
     display: none;
-  }
+  }*/
 
   .main {
     margin-top: 130px;
@@ -263,4 +264,23 @@ iframe {
     font-size: 25px;
     line-height: 1.2;
   }
+
+  .features{
+  grid-template: repeat( 4, 1fr)/ 1fr ;
+  height: fit-content;
+  grid-gap: 20px;
+  height: 100%;
 }
+
+.feature-card{
+  display: none;
+}
+
+ 
+
+ 
+
+
+  
+}
+
